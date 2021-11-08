@@ -1,0 +1,24 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Nov  9 00:37:41 2021
+
+@author: Naufal Fadillah
+NAME  : Naufal Fadillah Putra Suranto 
+NIM    : 064002100042
+"""
+
+from math import *
+print ("@@   @  @@@@  @   @  @@@@  @@@@  @") 
+print ("@ @  @  @  @  @   @  @     @  @  @")
+print ("@  @ @  @@@@  @   @  @@@@  @@@@  @")    
+print ("@   @@  @  @  @@@@@  @     @  @  @@@")
+
+def kecepatan(aku,sayang,kamu):
+    a= (sqrt(aku**2 + (2*sayang*(kamu))))
+    print("kecepatan awal=",aku,"percepatan=",sayang,"jarak=",kamu,"hasil=",a)
+    return a
+
+awal=float(input("kecepatan awal= "))
+percepatan=float(input("percepatan= "))
+jarak=float(input("jarak ="))
+kecepatan(awal,percepatan,jarak)
